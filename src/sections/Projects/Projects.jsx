@@ -3,10 +3,10 @@ import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
 
 // logo images
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import adventureTRVL from "../../assets/adventure-trvl-logo.png";
+import musicPlayer from "../../assets/music-player-logo.png";
+import photoCollection from "../../assets/photo-collection-logo.png";
+import currencyConverter from "../../assets/currency-converter-logo.png";
 
 function Projects() {
   return (
@@ -14,28 +14,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={adventureTRVL}
           link="https://github.com/Dynam1kss/React-Adventure-Website"
-          h3="React Adventure Website"
-          p="Site landing page about trabeling"
+          h3="React Adventure"
+          p="Landing page travel"
         />
         <ProjectCard
-          src={freshBurger}
+          src={musicPlayer}
           link="https://github.com/Dynam1kss/Music-Player-Spotify"
           h3="Music Player Spotify"
-          p="Web player based on Spotify API"
+          p="Spotify API player"
         />
         <ProjectCard
-          src={hipster}
+          src={photoCollection}
           link="https://github.com/Dynam1kss/Photo-Collection"
           h3="Photo Collection"
           p="Gallery of pictures"
         />
         <ProjectCard
-          src={fitLift}
+          src={currencyConverter}
           link="https://github.com/Dynam1kss/Currency-Converter"
           h3="Currency Converter"
-          p="Basic currency transfer system"
+          p="Calculates currency"
         />
       </div>
     </section>
